@@ -21,12 +21,12 @@ public class AsyncController {
     @GetMapping("/2")
     public String asyncCall_2() {
         asyncService.asyncCall_2();
-        return "success";
+        return "fail";
     }
 
     @GetMapping("/3")
     public String asyncCall_3() {
         asyncService.asyncCall_3();
-        return "success";
+        return "fail";
     }
 }
